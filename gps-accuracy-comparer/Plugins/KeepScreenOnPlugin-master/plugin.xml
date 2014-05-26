@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="KeepScreenOn"
+        id="com.alabala.KeepScreenOn"
         version="1.0">
 
   <name>KeepScreenOn</name>
@@ -17,11 +17,11 @@
     </js-module>
 
     <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="keepScreenOn">
-        <param name="android-package" value="KeepScreenOn" />
+      <feature name="KeepScreenOn">
+        <param name="android-package" value="com.alabala.KeepScreenOn" />
       </feature>
     </config-file>
-    <source-file src="src/android/KeepScreenOn.java" target-dir="/" />
+    <source-file src="src/android/com/alabala/KeepScreenOn.java" target-dir="src/com/alabala" />
   </platform>
 
 </plugin>
